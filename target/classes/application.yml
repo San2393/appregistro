@@ -1,6 +1,5 @@
 ## YAML Template.
 ---
 server:
-    port: 9030
     servlet:
         context-path: /appregistro
