@@ -13,12 +13,11 @@ public class Registro {
     public Registro() {
     }
 
-    public Registro(String idRegistro, String documento, Materia materia, Categoria categoria, Double precio) {
+    public Registro(String idRegistro, String documento, Materia materia, Categoria categoria) {
         this.idRegistro = idRegistro;
         this.documento = documento;
         this.materia = materia;
         this.categoria = categoria;
-        this.precio = precio;
     }
 
     public String getIdRegistro() {
