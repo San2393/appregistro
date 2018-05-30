@@ -12,6 +12,8 @@ public class DatosMateria {
         listaMaterias = new ArrayList<Materia>() {
             {
                 add(new Materia("001", "SOA", 4D, 1D, 2D));
+                add(new Materia("002", "Gestion", 2D, 1D, 2D));
+                add(new Materia("003", "Pacho", 1D, 1D, 2D));
             }
         };
     }

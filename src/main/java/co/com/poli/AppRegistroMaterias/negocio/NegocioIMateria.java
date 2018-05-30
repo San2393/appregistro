@@ -10,6 +10,8 @@ public interface NegocioIMateria {
 
     Materia obtenerMateria(String idMateria);
 
+    Materia obtenerMateriaMaximoCosto();
+
     String crearMateria(Materia materia);
 
     String eliminarMateria(String idMateria);

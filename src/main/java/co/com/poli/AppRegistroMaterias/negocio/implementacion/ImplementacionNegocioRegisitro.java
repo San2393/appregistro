@@ -82,6 +82,7 @@ public class ImplementacionNegocioRegisitro implements NegocioIRegistro {
     }
 
     public String Validaciones(Registro registro, Materia materia) {
+        registro.setMateria(materia);
         int cont = 0;
         boolean repetido = true;
         List<Registro> registros = obtenerRegistros();

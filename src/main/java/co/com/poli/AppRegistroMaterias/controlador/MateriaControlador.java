@@ -51,4 +51,9 @@ public class MateriaControlador {
         return negocioMateria.modificarMateria(materia);
     }
 
+    @GetMapping(PathMateria.MATERIA_MAXIMO)
+    public Materia obtenerMateriaMaximoCosto(HttpServletResponse hsr) {
+        return negocioMateria.obtenerMateriaMaximoCosto();
+    }
+
 }
